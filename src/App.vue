@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+    import PianoComponent from './components/Piano/PianoComponent.vue'
+</script>
 
 <template>
-    <div></div>
+    <PianoComponent />
 </template>
 
 <style scoped></style>
