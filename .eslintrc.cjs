@@ -16,8 +16,9 @@ module.exports = {
     },
     plugins: ['vue', 'prettier'],
     rules: {
-        'prettier/prettier': ['warn'],
-        '@typescript-eslint/no-explicit-any': 'error'
+        'prettier/prettier': ['off'],
+        '@typescript-eslint/no-explicit-any': 'error',
+        '@typescript-eslint/no-unused-vars': 'warn'
     },
     overrides: [
         {
